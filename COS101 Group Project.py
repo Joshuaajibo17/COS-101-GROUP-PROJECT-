@@ -5,7 +5,7 @@ window = tk.Tk()
 # Initialize the main window
 window.geometry("600x400")
 window.title("Naija Dictionary")
-# Set the background color to blue
+# Set the background color to bl
 window.configure(bg="red")
 
 # Dictionaries for different Nigerian languages
