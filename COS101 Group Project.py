@@ -35,7 +35,7 @@ dictionaries = {
         'oba': "king", 'aya': "wife", 'oko': "husband", 'oruko': "name", 'ifa': "divination"
     },
     "Igala": {
-        'ọja': "market", 'ulo': "house", 'ẹkpola': "stone", 'ọmọ': "child", 'anọ': "food",
+        'ara': "boy", 'ulo': "house", 'ẹkpola': "stone", 'ọmọ': "child", 'anọ': "food",
         'omi': "water", 'ọkọ': "boat", 'anọki': "river", 'ocho': "day", 'ọjọ': "night",
         'ikpakpa': "medicine", 'ehi': "market", 'ohimi': "chief", 'ami': "friend", 'onuwe': "garden",
         'eka': "clan", 'lọjọ': "hill", 'ojiji': "shadow", 'ẹnyọ': "hill", 'abọ': "pot"
