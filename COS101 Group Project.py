@@ -6,7 +6,7 @@ window = tk.Tk()
 window.geometry("600x400")
 window.title("Naija Dictionary")
 # Set the background color to bl
-window.configure(bg="red")
+window.configure(bg="blue")
 
 # Dictionaries for different Nigerian languages
 dictionaries = {
@@ -53,7 +53,6 @@ def show_search_ui():
     search_frame.pack(pady=20)
     # Set search frame background to white
     search_frame.config(bg="white")
-
 def search():
     word = entry_text.get().lower()
     if word in dictionaries[selected_language.get()]:
@@ -61,17 +60,17 @@ def search():
     else:
         result.set("Not found")
 
-tk.Label(window, text="Select a Language:", font=("Arial", 14), bg="red", fg="white").pack(pady=10)
+tk.Label(window, text="Select a Language:", font=("Arial", 14), bg="blue", fg="white").pack(pady=10)
 language_menu = tk.OptionMenu(window, selected_language, *dictionaries.keys(), command=lambda _: show_search_ui())
-language_menu.config(bg="white", fg="black")
+language_menu.config(bg="blue", fg="black")
 language_menu.pack()
 
-search_frame = tk.Frame(window, bg="white")
+search_frame = tk.Frame(window, bg="blue")
 
 entry_text = tk.Entry(search_frame, font=("Arial", 12), bg="black", fg="white")
 entry_text.pack(pady=5)
 
-search_btn = tk.Button(search_frame, text="Search", font=("Arial", 12), command=search, bg="white", fg="black")
+search_btn = tk.Button(search_frame, text="Search", font=("Arial", 12), command=search, bg="blue", fg="black")
 search_btn.pack(pady=5)
 
 result_label = tk.Label(search_frame, textvariable=result, font=("Arial", 12), bg="white", fg="black")
