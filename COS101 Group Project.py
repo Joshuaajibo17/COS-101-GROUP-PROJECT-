@@ -1,4 +1,4 @@
-import tkinter as tk
+from tkinter import Tk, Entry, Button, Label, StringVar, OptionMenu, Frame
 
 window = tk.Tk()
 
