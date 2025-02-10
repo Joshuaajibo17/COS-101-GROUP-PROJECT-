@@ -10,11 +10,11 @@ window.configure(bg="blue")
 
 # Dictionaries for different Nigerian languages
 dictionaries = {
-    "Michika": {
+ "Michika": {
         'hwada': "tree", 'tsatsa': "stone", 'nanga': "house", 'fako': "child", 'bwala': "food",
         'challa': "water", 'kaka': "firewood", 'sikala': "day", 'suwi': "night", 'kwang': "goat",
         'mbala': "road", 'wila': "fish", 'nyanya': "mother", 'baba': "father", 'jaka': "donkey",
-        'lumba': "rice", 'dala': "friend", 'hwapa': "work", 'mwanwa': "sister", 'yawi': "brother"
+        'lumba': "rice", 'dala': "friend", 'hwapa': "work", 'yawi': "brother", 'mwanwa': "sister"
     },
     "Hausa": {
         'kujera': "chair", 'mangwaro': "mango", 'gida': "house", 'yaro': "child", 'abunci': "food",
